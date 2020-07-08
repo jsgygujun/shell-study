@@ -4,5 +4,5 @@
 
 删除文件的前N行内容
 ```shell
-set -i '1,Nd' file.txt
+sed -i '1,Nd' file.txt
 ```
